@@ -25,6 +25,7 @@ MB_VER=$(cat ../etc/version)
 # Source the config file
 source ../etc/config
 
+# Print the header
 scripts/print-header
 
 # Get argument 1 into variable
