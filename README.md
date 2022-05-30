@@ -3,7 +3,7 @@
 #### Description:
 A script to boot your miner inside of a "screen". To use this for now, you will need to have some basic BASH scripting knowledge. For supported miners, a watchdog will be set up to check the API of the miner to see if it is still mining and restart the miner if it is not mining.
 
-Minerboot will clone the github source code and compile it or it will download the binary files depending on if the source is available. You will be able to manually change the miner download URL in the etc/config file and run the `miners update` command in miner-boot.
+Minerboot will clone the github source code and compile it or it will download the binary files depending on if the source is available. You will be able to manually change the miner download URL in the etc/config file and run the `./miner-boot.sh miners update` command.
 
 This is a new project and is currently under construction. I will try and get version 1.0.0 out ASAP.
 
