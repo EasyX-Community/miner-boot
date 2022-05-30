@@ -22,16 +22,16 @@ Do not install, project is currently in a broken state.
 #### Changelog:
 - Nothing yet
 
-#### Requirements (under contstruction):
+#### Requirements:
 - A Brain
 
-#### Install (under contstruction):
+#### Install:
 1. `cd /opt`
 2. `git clone https://github.com/EasyX-Community/miner-boot.git`
 3. `cd miner-boot`
 4. `./install_miner-boot.sh`
 
-#### Setup (under contstruction):
+#### Setup:
 1. `cd /opt/miner-boot`
 2. Edit your configuration files
 3. Edit your miner files
@@ -41,13 +41,13 @@ Do not install, project is currently in a broken state.
              or<br />
    ```miner-boot.sh cron install all```<br />
 
-#### Updating (manual) (under contstruction):
+#### Updating (manual):
 1. `cd /opt/miner-boot`
 2. `git pull`
 3. `miner-boot.sh cron remove all`
-4. Follow steps under "Setup" to add your miners again 
+4. Follow steps under [Setup](#Setup) to add your miners again 
 
-#### Cronjobs (under contstruction):
+#### Cronjobs:
 The installer will ask if you want it to install cronjob for you. It will also ask if you want it to install a weekly update cronjob for you.
 
 It is advised you select **'yes'** and then if you want to change it you can use `crontab -e` later.
