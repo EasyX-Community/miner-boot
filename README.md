@@ -1,14 +1,14 @@
 # miner-boot v0.0.9a
 
 #### Description:
-Automatically check walletd for coins and send all to specified address. Featuring a new installer. Linux only.
+A script to boot your miner inside of a "screen". 
 
-Used for auto sending Raptoreum/RTM to INodez onboarding address - so you can keep mining to desktop wallet :)
+For supported miners, a watchdog will be set up to check the API of the miner to see if it is still mining and restart the miner if it is not mining.
 
-Could also be repurposed for other crypto's that have sendtoaddress RPC function. If your coind does not have the sendtoaddress function you can modify it to use a different send function. You'll be on your own for that, good luck!
+To use this for now, you will need to have some basic BASH scripting knowledge.
 
 #### Disclaimer:
-**I am not liable in any way for damages to your computer or lost funds due to bugs, being hacked, exploited, or any other malfunction of the scripts. Having a script that automatically sends all of your cryptocurrency to an address is inherently dangerous and can be exploited for malicious purposes. Please be advised of the risks and ensure the receiving address is the correct address before setting this script up to send to it. This source code is open, it is your responsibility to audit the code.**
+**I am not liable in any way for damages to your computer due to bugs, being hacked, exploited, or any other malfunction of the scripts. This source code is open, it is your responsibility to audit the code.**
 
 #### Notes:
 - It is important the instructions are completed in order
@@ -16,22 +16,33 @@ Could also be repurposed for other crypto's that have sendtoaddress RPC function
 - Do not delete the git repository directory, it installs in it's place
 
 #### Changelog:
-- Added path to CLI as config variable fixing bug where script does not know where cli is located
+- Nothing yet
 
-#### Requirements:
-- Some coind running on some machine configured with LAN IP as host, some port, some user, and some password
+#### Requirements (under contstruction):
+- A Brain
 
-#### Setup:
+#### Install (under contstruction):
 1. `cd /opt`
-2. `git clone https://gogs.easyx.cc/EasyX-Community/crypto-autosend.git`
-3. `cd crypto-autosend`
-4. `./install_crypto-autosend.sh`
-5. `source ~/.bashrc`
+2. `git clone https://gogs.easyx.cc/EasyX-Community/miner-boot.git`
+3. `cd miner-boot`
 
-#### Updating (manual):
-1. `crypto-autosend-update`
+#### Setup (under contstruction):
+1. `cd /opt/miner-boot`
+2. Edit your configuration files
+3. Edit your miner files
+4. `miner-boot.sh cron install cpu`
+                or
+   `miner-boot.sh cron install gpu`
+                or
+   `miner-boot.sh cron install all`  
 
-#### Cronjobs:
+#### Updating (manual) (under contstruction):
+1. `cd /opt/miner-boot`
+2. `git pull`
+3. `miner-boot.sh cron remove all`
+4. Follow steps under "Setup" to add your miners again 
+
+#### Cronjobs (under contstruction):
 The installer will ask if you want it to install cronjob for you. It will also ask if you want it to install a weekly update cronjob for you.
 
 It is advised you select **'yes'** and then if you want to change it you can use `crontab -e` later.
