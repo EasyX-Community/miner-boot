@@ -7,11 +7,14 @@
 #   Install and configure miner-boot scripts
 #
 
-# Get version number
-MB_VER=$(cat ../etc/version)
+# Get the miner-boot root directory
+MB_ROOT="$(dirname "$(dirname "$(readlink -fm "$0")")")"
+
+# Get the version number
+MB_VER=$(cat ${MB_ROOT}/etc/version)
 
 # Source the config file
-source ../etc/config
+source ${MB_ROOT}/etc/config
 
 # Print the header
 echo ""
