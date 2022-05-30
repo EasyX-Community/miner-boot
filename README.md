@@ -30,6 +30,7 @@ Do not install, project is currently in a broken state.
 2. `git clone https://github.com/EasyX-Community/miner-boot.git`
 3. `cd miner-boot`
 4. `./install_miner-boot.sh`
+5. Follow [Setup](#setup) instructions
 
 #### Setup:
 1. `cd /opt/miner-boot`
