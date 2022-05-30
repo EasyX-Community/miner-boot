@@ -45,7 +45,7 @@ Do not install, project is currently in a broken state.
 1. `cd /opt/miner-boot`
 2. `git pull`
 3. `miner-boot.sh cron remove all`
-4. Follow steps under [Setup](#Setup) to add your miners again 
+4. Follow steps under [Setup](#setup) to add your miners again 
 
 #### Cronjobs:
 The installer will ask if you want it to install cronjob for you. It will also ask if you want it to install a weekly update cronjob for you.
