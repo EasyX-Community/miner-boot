@@ -34,11 +34,11 @@ Do not install, project is currently in a broken state.
 1. `cd /opt/miner-boot`
 2. Edit your configuration files
 3. Edit your miner files
-4. `miner-boot.sh cron install cpu`
+4. ```miner-boot.sh cron install cpu```
                 or
-   `miner-boot.sh cron install gpu`
+   ```miner-boot.sh cron install gpu```
                 or
-   `miner-boot.sh cron install all`  
+   ```miner-boot.sh cron install all```
 
 #### Updating (manual) (under contstruction):
 1. `cd /opt/miner-boot`
