@@ -29,6 +29,7 @@ Do not install, project is currently in a broken state.
 1. `cd /opt`
 2. `git clone https://gogs.easyx.cc/EasyX-Community/miner-boot.git`
 3. `cd miner-boot`
+4. `./install_miner-boot.sh`
 
 #### Setup (under contstruction):
 1. `cd /opt/miner-boot`
