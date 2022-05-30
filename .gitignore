@@ -1,0 +1,14 @@
+
+# Ignore
+
+etc/config
+
+# Ignore all
+
+*~
+miners/*
+
+# Allow
+
+!miners/.placeholder
+!scripts/.placeholder
