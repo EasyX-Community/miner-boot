@@ -1,0 +1,7 @@
+#
+# This is the configuration file for miner-boot. It should be configured automatically by install_miner-boot.sh
+#
+
+
+# Path to miner-boot repository
+MB_PWD="/opt/miner-boot"
