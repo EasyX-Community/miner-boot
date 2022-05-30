@@ -26,7 +26,13 @@ MB_VER=$(cat ../etc/version)
 source ../etc/config
 
 # Print the header
-scripts/print-header
+echo ""
+echo "#"
+echo "##"
+echo "### miner-boot ${MB_VER}"
+echo "##"
+echo "#"
+echo ""
 
 # Get argument 1 into variable
 # Get argument 2 into variable
