@@ -5,6 +5,8 @@ A script to boot your miner inside of a "screen". To use this for now, you will 
 
 This is a new project and is currently under construction. I will try and get version 1.0.0 out ASAP.
 
+Do not install, project is currently in a broken state.
+
 #### Disclaimer:
 **I am not liable in any way for damages to your computer due to bugs, being hacked, exploited, or any other malfunction of the scripts. This source code is open, it is your responsibility to audit the code.**
 
