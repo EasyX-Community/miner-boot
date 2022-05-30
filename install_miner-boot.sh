@@ -7,8 +7,11 @@
 #   Install and configure miner-boot scripts
 #
 
-# First things first, let's source the config file
-source etc/config
+# Get version number
+MB_VER=$(cat ../etc/version)
+
+# Source the config file
+source ../etc/config
 
 
 # Ask the user which miners to enable

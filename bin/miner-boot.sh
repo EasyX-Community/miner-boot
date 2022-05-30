@@ -19,8 +19,13 @@
 # miners update - download and recompile miners
 #
 
-# First things first, let's source the config file
+# Get version number
+MB_VER=$(cat ../etc/version)
+
+# Source the config file
 source ../etc/config
+
+scripts/print-header
 
 # Get argument 1 into variable
 # Get argument 2 into variable
