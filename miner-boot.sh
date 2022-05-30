@@ -10,9 +10,11 @@
 #   each miner is different and must be added in manually.
 #
 # Startup options:
+#
 # start <cpu|gpu|all> - start the miner(s)
 # stop <cpu|gpu|all> - stop the miner(s)
 # log <cpu|gpu> - watch logs for 'gpu' or 'cpu'
 # cron <install|remove> <cpu|gpu|all> - install/remove cronjob for cpu/gpu/all
 #
- 
+# miners update - download and recompile miners
+#

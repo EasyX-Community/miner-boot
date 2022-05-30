@@ -22,10 +22,12 @@ MB_PWD="/opt/miner-boot"
 #
 
 # lolMiner download URL (binary)
+LOL_ENABLED=true
 LOL_DL_LOC="https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.51a/lolMiner_v1.51a_Lin64.tar.gz"
 LOL_DL_TYPE="binary"
 
 # Wildrig-multi download URL (github source)
+WILDRIG_ENABLED=false
 WILDRIG_DL_LOC="https://github.com/andru-kun/wildrig-multi/releases/download/0.31.3/wildrig-multi-linux-0.31.3.tar.xz"
 WILDRIG_DL_TYPE="binary"
 
@@ -39,6 +41,7 @@ WILDRIG_DL_TYPE="binary"
 #
 
 # xmrig download URL (github source)
+XMRIG_ENABLED=true
 XMRIG_DL_LOC="https://github.com/xmrig/xmrig.git"
 XMRIG_DL_TYPE="source"
 XMRIG_DISABLE_DONATE=true
