@@ -1,9 +1,7 @@
 # miner-boot v0.0.9a
 
 #### Description:
-A script to boot your miner inside of a "screen". To use this for now, you will need to have some basic BASH scripting knowledge.
-
-For supported miners, a watchdog will be set up to check the API of the miner to see if it is still mining and restart the miner if it is not mining.
+A script to boot your miner inside of a "screen". To use this for now, you will need to have some basic BASH scripting knowledge. For supported miners, a watchdog will be set up to check the API of the miner to see if it is still mining and restart the miner if it is not mining.
 
 This is a new project and is currently under construction. I will try and get version 1.0.0 out ASAP.
 
