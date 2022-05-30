@@ -5,6 +5,8 @@ A script to boot your miner inside of a "screen". To use this for now, you will 
 
 Minerboot will clone the github source code and compile it or it will download the binary files depending on if the source is available. You will be able to manually change the miner download URL in the etc/config file and run the `./miner-boot.sh miners update` command.
 
+You will be able to call `miner-boot` or `miner-boot.sh` whichever you prefer - both will work.
+
 This is a new project and is currently under construction. I will try and get version 1.0.0 out ASAP.
 
 Do not install, project is currently in a broken state.
